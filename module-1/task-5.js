@@ -12,39 +12,49 @@
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
 
-// const CHINA = "Китай";
+// const CHINA = 'Китай';
 // const DELIVERY_TO_CHINA = 100;
-// const CHILE = "Чили";
+// const CHILE = 'Чили';
 // const DELIVERY_TO_CHILE = 250;
-// const AUSTRALIA = "Австралия";
+// const AUSTRALIA = 'Австралия';
 // const DELIVERY_TO_AUSTRALIA = 170;
-// const INDIA = "Индия";
+// const INDIA = 'Индия';
 // const DELIVERY_TO_INDIA = 80;
-// const JAMAICA = "Ямайка";
+// const JAMAICA = 'Ямайка';
 // const DELIVERY_TO_JAMAICA = 120;
-// const userInput = prompt("В какую страну доставить товар ?");
+// const userInput = prompt('В какую страну доставить товар ?');
 
 // switch (userInput && userInput.toLowerCase()) {
 //   case CHINA.toLowerCase():
-//     console.log(`Доставка в ${CHINA} будет стоить ${DELIVERY_TO_CHINA} кредитов`);
+//     console.log(
+//       `Доставка в ${CHINA} будет стоить ${DELIVERY_TO_CHINA} кредитов`,
+//     );
 //     break;
 
 //   case CHILE.toLowerCase():
-//     console.log(`Доставка в ${CHILE} будет стоить ${DELIVERY_TO_CHILE} кредитов`);
+//     console.log(
+//       `Доставка в ${CHILE} будет стоить ${DELIVERY_TO_CHILE} кредитов`,
+//     );
 //     break;
 
 //   case AUSTRALIA.toLowerCase():
-//     console.log(`Доставка в ${AUSTRALIA} будет стоить ${DELIVERY_TO_AUSTRALIA} кредитов`);
+//     console.log(
+//       `Доставка в ${AUSTRALIA} будет стоить ${DELIVERY_TO_AUSTRALIA} кредитов`,
+//     );
 //     break;
 
 //   case INDIA.toLowerCase():
-//     console.log(`Доставка в ${INDIA} будет стоить ${DELIVERY_TO_INDIA} кредитов`);
+//     console.log(
+//       `Доставка в ${INDIA} будет стоить ${DELIVERY_TO_INDIA} кредитов`,
+//     );
 //     break;
 
 //   case JAMAICA.toLowerCase():
-//     console.log(`Доставка в ${JAMAICA} будет стоить ${DELIVERY_TO_JAMAICA} кредитов`);
+//     console.log(
+//       `Доставка в ${JAMAICA} будет стоить ${DELIVERY_TO_JAMAICA} кредитов`,
+//     );
 //     break;
 
 //   default:
-//     alert("В вашей стране доставка не доступна");
+//     alert('В вашей стране доставка не доступна');
 // }

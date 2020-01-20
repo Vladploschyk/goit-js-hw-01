@@ -14,16 +14,19 @@
 // const pricePerDroid = 3000;
 // let totalPrice;
 
-// let numberOfDroids = prompt("Какое количество дроидов вы хотите купить?");
+// let numberOfDroids = prompt('Какое количество дроидов вы хотите купить?');
 
 // if (numberOfDroids === null) {
-//   console.log("Отменено пользователем");
+//   console.log('Отменено пользователем');
 // } else {
 //   totalPrice = numberOfDroids * pricePerDroid;
 // }
 
 // if (totalPrice >= credits) {
-//   console.log("Недостаточно средств на счету!");
+//   console.log('Недостаточно средств на счету!');
 // } else if (totalPrice < credits) {
-//   console.log(`Вы купили ${numberOfDroids} дроидов, на счету осталось ${credits - totalPrice} кредитов`);
+//   console.log(
+//     `Вы купили ${numberOfDroids} дроидов, на счету осталось ${credits -
+//       totalPrice} кредитов`,
+//   );
 // }
