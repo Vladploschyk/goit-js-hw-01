@@ -7,15 +7,15 @@
 // В противном случае, то есть если ни одно из предыдущих условий не выполнилось, записать в message строку 'Доступ запрещен, неверный пароль!'
 // После всех проверок вывести в alert значение переменной message.
 
-// const ADMIN_PASSWORD = 'jqueryismyjam';
-// let message;
-// const userPassword = prompt('Введите пароль');
+const ADMIN_PASSWORD = 'jqueryismyjam';
+let message;
+const userPassword = prompt('Введите пароль');
 
-// if (userPassword === ADMIN_PASSWORD) {
-//   console.log((message = 'Добро пожаловать!'));
-// } else if (userPassword === null) {
-//   console.log((message = 'Отменено пользователем!'));
-// } else {
-//   console.log((message = 'Доступ запрещен, неверный пароль!'));
-// }
-// alert(message);
+if (userPassword === ADMIN_PASSWORD) {
+  console.log((message = 'Добро пожаловать!'));
+} else if (userPassword === null) {
+  console.log((message = 'Отменено пользователем!'));
+} else {
+  console.log((message = 'Доступ запрещен, неверный пароль!'));
+}
+alert(message);
