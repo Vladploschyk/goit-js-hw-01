@@ -20,7 +20,7 @@ if (numberOfDroids === null) {
   alert('Отменено пользователем');
 } else {
   totalPrice = numberOfDroids * pricePerDroid;
-  if (totalPrice >= credits) {
+  if (totalPrice > credits) {
     alert('Недостаточно средств на счету');
   } else {
     alert(

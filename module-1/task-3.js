@@ -8,7 +8,6 @@
 // После всех проверок вывести в alert значение переменной message.
 
 const ADMIN_PASSWORD = 'jqueryismyjam';
-let message;
 
 const userPassword = prompt('Введите пароль');
 

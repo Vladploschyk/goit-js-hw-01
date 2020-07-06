@@ -14,12 +14,3 @@ if (ordered > total) {
 } else {
   console.log('Заказ оформлен, с вами свяжется менеджер');
 }
-
-const total = 100;
-const ordered = 120;
-
-if (ordered > total) {
-  console.log('Недостаточно товаров на складе');
-} else {
-  console.log('Заказ оформлен, с вами свяжется менеджер');
-}
